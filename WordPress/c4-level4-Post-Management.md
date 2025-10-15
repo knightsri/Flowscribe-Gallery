@@ -48,14 +48,14 @@ public create_initial_post_types()
 
 ## Dependencies
 
-<div class="mermaid">
+```mermaid
 classDiagram
     class Post Management
     Post Management ..> WP_Post_Type
     Post Management ..> register_post_type
     Post Management ..> register_post_status
     Post Management ..> WordPress Core API (e.g., add_post_type_support)
-</div>
+```
 
 **Dependency Details:**
 
