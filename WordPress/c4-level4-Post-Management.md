@@ -50,11 +50,14 @@ public create_initial_post_types()
 
 ```mermaid
 classDiagram
-    class Post Management
-    Post Management ..> WP_Post_Type
-    Post Management ..> register_post_type
-    Post Management ..> register_post_status
-    Post Management ..> WordPress Core API (e.g., add_post_type_support)
+    class PostManagement["Post Management"]
+    class WP_Post_Type
+    class WordPressCoreAPI["WordPress Core API"]
+
+    PostManagement ..> WP_Post_Type : uses
+    PostManagement ..> WordPressCoreAPI : register_post_type()
+    PostManagement ..> WordPressCoreAPI : register_post_status()
+    PostManagement ..> WordPressCoreAPI : add_post_type_support()
 ```
 
 **Dependency Details:**
