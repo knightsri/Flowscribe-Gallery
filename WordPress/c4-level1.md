@@ -96,6 +96,6 @@ flowchart TB
     Ext2["🔗 Import Tools (e.g., from other CMS)<br/>Allows migration of content from external publishing platforms."]
     User -->|Uses| System
     System -->|Database| Ext0
-    System -->|File System/Protocol (HTTP/HTTPS)| Ext1
+    System -->|File System/Protocol - HTTP/HTTPS | Ext1
     System -->|API/File Import| Ext2
 </div>
