@@ -120,7 +120,8 @@ public validate_current_theme()
 
 ## Dependencies
 
-```mermaidclassDiagram
+```mermaid
+classDiagram
     class ThemeAPI["Theme API"]
     class WP_Theme
     class WordPressMultisiteAPI["WordPress Multisite API"]
