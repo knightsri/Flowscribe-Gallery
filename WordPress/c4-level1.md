@@ -87,7 +87,7 @@ WordPress enables users to create, publish, and manage digital content on the we
 ---
 
 ## System Context Diagram
-<div class="mermaid">
+```mermaid
 flowchart TB
     User["👤 Users<br/>Various user types"]
     System["🏛️ WordPress<br/>WordPress enables users to create, publish, and manage digital content on the web through a user-friendly interface."]
@@ -98,4 +98,4 @@ flowchart TB
     System -->|Database| Ext0
     System -->|File System/Protocol - HTTP/HTTPS | Ext1
     System -->|API/File Import| Ext2
-</div>
+```
