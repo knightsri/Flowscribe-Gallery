@@ -113,13 +113,17 @@ public get_site_id()
 
 ## Dependencies
 
-<div class="mermaid">
+```mermaid
 classDiagram
-    class User Management
-    User Management ..> stdClass
-    User Management ..> $wpdb
-    User Management ..> wp_roles
-</div>
+    class UserManagement["User Management"]
+    class stdClass
+    class WPDB["$wpdb (global)"]
+    class WPRoles["$wp_roles (global)"]
+
+    UserManagement ..> stdClass : returns objects as
+    UserManagement ..> WPDB : queries
+    UserManagement ..> WPRoles : reads/manages roles
+```
 
 **Dependency Details:**
 
