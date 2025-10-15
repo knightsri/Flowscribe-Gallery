@@ -1,0 +1,15 @@
+title: Flowscribe Gallery
+description: A living showcase of Flowscribe architecture analyses
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Apply the default layout to all Markdown files automatically
+defaults:
+  - scope:
+      path: ""
+      ext: "md"
+    values:
+      layout: default
