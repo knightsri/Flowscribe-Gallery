@@ -130,19 +130,29 @@ public wp_loaded()
 
 ## Dependencies
 
-<div class="mermaid">
+```mermaid
 classDiagram
     class WP_Customize_Manager
-WP_Customize_Manager ..> WP_Customize_Setting
-WP_Customize_Manager ..> WP_Customize_Panel
-WP_Customize_Manager ..> WP_Customize_Section
-WP_Customize_Manager ..> WP_Customize_Control
-WP_Customize_Manager ..> WP_Customize_Widgets
-WP_Customize_Manager ..> WP_Customize_Nav_Menus
-WP_Customize_Manager ..> WP_Customize_Selective_Refresh
-WP_Customize_Manager ..> WordPress hooks (e.g., apply_filters, do_action)
-WP_Customize_Manager ..> WP_Theme
-</div>
+    class WP_Customize_Setting
+    class WP_Customize_Panel
+    class WP_Customize_Section
+    class WP_Customize_Control
+    class WP_Customize_Widgets
+    class WP_Customize_Nav_Menus
+    class WP_Customize_Selective_Refresh
+    class WP_Theme
+    class WordPressHooks["WordPress Hooks"]
+
+    WP_Customize_Manager ..> WP_Customize_Setting : uses
+    WP_Customize_Manager ..> WP_Customize_Panel : manages
+    WP_Customize_Manager ..> WP_Customize_Section : manages
+    WP_Customize_Manager ..> WP_Customize_Control : manages
+    WP_Customize_Manager ..> WP_Customize_Widgets : integrates
+    WP_Customize_Manager ..> WP_Customize_Nav_Menus : integrates
+    WP_Customize_Manager ..> WP_Customize_Selective_Refresh : integrates
+    WP_Customize_Manager ..> WordPressHooks : apply_filters(), do_action()
+    WP_Customize_Manager ..> WP_Theme : interacts
+```
 
 **Dependency Details:**
 
