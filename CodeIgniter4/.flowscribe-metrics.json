@@ -1,0 +1,62 @@
+{
+  "project": "CodeIgniter 4",
+  "domain": "web development",
+  "repository": "https://github.com/codeigniter4/CodeIgniter4",
+  "analysis_date": "2025-10-15T05:13:26.482052",
+  "total_time_seconds": 531.1742486953735,
+  "total_cost_usd": 0.00331998,
+  "total_tokens": 7332,
+  "model": "x-ai/grok-code-fast-1",
+  "breakdown": {
+    "metadata_detection": {
+      "cost": 0.00135674,
+      "time": 4.000148773193359,
+      "tokens": 3440
+    },
+    "deptrac_generation": {
+      "cost": 0.00196324,
+      "time": 10.822601556777954,
+      "tokens": 3892
+    },
+    "architecture_review": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    },
+    "level1": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    },
+    "level2": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    },
+    "level3_presentation": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    },
+    "level3_infrastructure": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    },
+    "level3_persistence": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    },
+    "level3_domain": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    },
+    "level4": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    }
+  }
+}

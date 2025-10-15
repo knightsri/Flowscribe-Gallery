@@ -1,0 +1,62 @@
+{
+  "project": "WordPress",
+  "domain": "content management",
+  "repository": "https://github.com/WordPress/WordPress",
+  "analysis_date": "2025-10-15T04:28:04.761409",
+  "total_time_seconds": 517.1000595092773,
+  "total_cost_usd": 0.001703,
+  "total_tokens": 7868,
+  "model": "x-ai/grok-code-fast-1",
+  "breakdown": {
+    "metadata_detection": {
+      "cost": 0.000673,
+      "time": 4.383475303649902,
+      "tokens": 819
+    },
+    "deptrac_generation": {
+      "cost": 0.00103,
+      "time": 4.6987693309783936,
+      "tokens": 7049
+    },
+    "architecture_review": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    },
+    "level1": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    },
+    "level2": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    },
+    "level3_presentation": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    },
+    "level3_infrastructure": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    },
+    "level3_persistence": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    },
+    "level3_domain": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    },
+    "level4": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    }
+  }
+}

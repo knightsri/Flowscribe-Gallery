@@ -1,0 +1,2810 @@
+{
+  "version": 1,
+  "total": 8616,
+  "by_pair": [
+    {
+      "from": "Framework",
+      "to": "Application",
+      "count": 7466
+    },
+    {
+      "from": "Framework",
+      "to": "Tests",
+      "count": 940
+    },
+    {
+      "from": "Framework",
+      "to": "Framework",
+      "count": 141
+    },
+    {
+      "from": "Tests",
+      "to": "Framework",
+      "count": 42
+    },
+    {
+      "from": "Tests",
+      "to": "Tests",
+      "count": 26
+    },
+    {
+      "from": "Application",
+      "to": "Framework",
+      "count": 1
+    }
+  ],
+  "by_rule": [
+    {
+      "rule": "unknown",
+      "count": 8616
+    }
+  ],
+  "hotspots": [
+    {
+      "file": "CodeIgniter4/system/Test/CIUnitTestCase.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4980
+    },
+    {
+      "file": "CodeIgniter4/system/Test/DatabaseTestTrait.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 360
+    },
+    {
+      "file": "CodeIgniter4/system/Config/Services.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 113
+    },
+    {
+      "file": "CodeIgniter4/system/Config/BaseConfig.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 78
+    },
+    {
+      "file": "CodeIgniter4/system/CLI/BaseCommand.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 76
+    },
+    {
+      "file": "CodeIgniter4/system/Config/BaseService.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 75
+    },
+    {
+      "file": "CodeIgniter4/system/Database/BaseBuilder.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 56
+    },
+    {
+      "file": "CodeIgniter4/system/CodeIgniter.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 52
+    },
+    {
+      "file": "CodeIgniter4/tests/system/CommonFunctionsTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 50
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/IncomingRequestTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 45
+    },
+    {
+      "file": "CodeIgniter4/system/Controller.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 44
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Filters/FiltersTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 44
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/ResponseTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 39
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Autoloader/AutoloaderTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 33
+    },
+    {
+      "file": "CodeIgniter4/system/Session/Handlers/BaseHandler.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 32
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/ResponseCookieTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 32
+    },
+    {
+      "file": "CodeIgniter4/system/Test/FeatureTestTrait.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 28
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/ResponseCacheTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 28
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/RedirectResponseTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 28
+    },
+    {
+      "file": "CodeIgniter4/system/CLI/GeneratorTrait.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 26
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/StrictRules/DatabaseRelatedRulesTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 26
+    },
+    {
+      "file": "CodeIgniter4/system/Test/ControllerTestTrait.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 24
+    },
+    {
+      "file": "CodeIgniter4/system/Boot.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 22
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Config/ServicesTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 21
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/SiteURITest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 21
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/ValidationTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 20
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Encryption/EncryptionTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 19
+    },
+    {
+      "file": "CodeIgniter4/system/Cache/Handlers/BaseHandler.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 18
+    },
+    {
+      "file": "CodeIgniter4/tests/system/CodeIgniterTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 17
+    },
+    {
+      "file": "CodeIgniter4/system/HTTP/Response.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 16
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Helpers/CookieHelperTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 16
+    },
+    {
+      "file": "CodeIgniter4/system/Session/Handlers/DatabaseHandler.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 15
+    },
+    {
+      "file": "CodeIgniter4/system/Filters/Filters.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 14
+    },
+    {
+      "file": "CodeIgniter4/system/HTTP/IncomingRequest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 14
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/ConnectTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 14
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/CLIRequestTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 13
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Router/AutoRouterImprovedTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 13
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Session/SessionTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 13
+    },
+    {
+      "file": "CodeIgniter4/system/HTTP/Request.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 12
+    },
+    {
+      "file": "CodeIgniter4/system/Images/Handlers/BaseHandler.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 12
+    },
+    {
+      "file": "CodeIgniter4/system/Security/Security.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 12
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/AbstractGetFieldDataTestCase.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 12
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Migrations/MigrationRunnerTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 12
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Router/RouterTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 12
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Security/SecurityCSRFSessionRandomizeTokenTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 11
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Security/SecurityCSRFSessionTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 11
+    },
+    {
+      "file": "CodeIgniter4/system/Email/Email.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 10
+    },
+    {
+      "file": "CodeIgniter4/system/HTTP/RequestTrait.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 10
+    },
+    {
+      "file": "CodeIgniter4/system/HTTP/ResponseTrait.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 10
+    },
+    {
+      "file": "CodeIgniter4/system/Session/Session.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 10
+    },
+    {
+      "file": "CodeIgniter4/system/View/View.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 10
+    },
+    {
+      "file": "CodeIgniter4/tests/system/API/ResponseTraitTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 10
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Helpers/FormHelperTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 10
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Honeypot/HoneypotTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 10
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/ContentSecurityPolicyTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 10
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/RequestTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 10
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Pager/PagerTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 10
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Router/RouteCollectionTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 10
+    },
+    {
+      "file": "CodeIgniter4/system/Encryption/Handlers/BaseHandler.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 9
+    },
+    {
+      "file": "CodeIgniter4/system/HTTP/SiteURI.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 9
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/AbstractFactoriesCacheHandlerTestCase.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 9
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/FileHandlerTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 9
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Commands/Utilities/Routes/FilterFinderTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 9
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/MySQLi/FoundRowsTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 9
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Debug/ExceptionHandlerTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 9
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Debug/ExceptionsTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 9
+    },
+    {
+      "file": "CodeIgniter4/system/HTTP/CURLRequest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 8
+    },
+    {
+      "file": "CodeIgniter4/system/View/ViewDecoratorTrait.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 8
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Autoloader/FileLocatorTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 8
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/CURLRequestTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 8
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Test/FeatureTestTraitTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 8
+    },
+    {
+      "file": "CodeIgniter4/system/Autoloader/Autoloader.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 7
+    },
+    {
+      "file": "CodeIgniter4/system/Router/RouteCollection.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 7
+    },
+    {
+      "file": "CodeIgniter4/system/Router/Router.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 7
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Commands/RoutesTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 7
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/ResponseSendTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 7
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Test/ControllerTestTraitTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 7
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Test/TestResponseTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 7
+    },
+    {
+      "file": "CodeIgniter4/system/Commands/Database/CreateDatabase.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 6
+    },
+    {
+      "file": "CodeIgniter4/system/Commands/Generators/MigrationGenerator.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 6
+    },
+    {
+      "file": "CodeIgniter4/system/Commands/Translation/LocalizationSync.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 6
+    },
+    {
+      "file": "CodeIgniter4/system/Database/MigrationRunner.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 6
+    },
+    {
+      "file": "CodeIgniter4/system/Debug/BaseExceptionHandler.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 6
+    },
+    {
+      "file": "CodeIgniter4/system/Files/File.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 6
+    },
+    {
+      "file": "CodeIgniter4/system/Test/FilterTestTrait.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 6
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Helpers/URLHelper/MiscUrlTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 6
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/SiteURIFactoryDetectRoutePathTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 6
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Security/SecurityTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 6
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Session/Handlers/Database/AbstractHandlerTestCase.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 6
+    },
+    {
+      "file": "CodeIgniter4/system/Commands/Utilities/Routes.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/system/Database/Seeder.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/system/Debug/Exceptions.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/system/Encryption/Encryption.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/system/HTTP/Cors.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/system/Model.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/CacheFactoryTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Commands/Utilities/Routes/AutoRouterImproved/ControllerMethodReaderTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/tests/system/ControllerTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/MySQLi/NumberNativeTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Filters/HoneypotTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Helpers/HTMLHelperTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Helpers/URLHelper/CurrentUrlTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Helpers/URLHelper/SiteUrlCliTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Helpers/URLHelper/SiteUrlTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/NegotiateTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/SiteURIFactoryTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/URITest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Publisher/PublisherInputTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Test/FeatureTestAutoRoutingImprovedTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/system/BaseModel.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/system/Cache/Handlers/FileHandler.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/system/CLI/Console.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/system/Database/Migration.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/system/Database/SQLSRV/Builder.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/system/Debug/Toolbar.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/system/Events/Events.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/system/HTTP/ContentSecurityPolicy.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/system/HTTP/DownloadResponse.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/system/HTTP/URI.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/system/HTTP/UserAgent.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/system/Validation/StrictRules/FileRules.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Autoloader/FileLocatorCachedTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/MemcachedHandlerTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/RedisHandlerTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Commands/CreateDatabaseTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Commands/Database/MigrateStatusTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Commands/ScaffoldGeneratorTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/CommonHelperTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Config/FactoriesTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/DatabaseSeederTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/ForgeTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/InsertTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/TransactionDBDebugTrueTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Debug/Toolbar/Collectors/LogsTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/CURLRequestShareOptionsTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Log/Handlers/ChromeLoggerHandlerTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/RESTful/ResourceControllerTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Router/DefinedRouteCollectorTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Router/RouteCollectionReverseRouteTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Session/Handlers/Database/MySQLiHandlerTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Session/Handlers/Database/PostgreHandlerTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/system/Commands/Generators/CellGenerator.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/system/Commands/Translation/LocalizationFinder.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/system/Commands/Utilities/ConfigCheck.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/system/Commands/Utilities/Routes/FilterFinder.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/system/Cookie/Cookie.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/system/Database/Config.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/system/Debug/Toolbar/Collectors/Database.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/system/Format/Format.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/system/Honeypot/Honeypot.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/system/Pager/Pager.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/PredisHandlerTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Commands/Utilities/ConfigCheckTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Config/BaseConfigTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Config/MimesTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cookie/CookieTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Builder/GetTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/DatabaseTestCase/DatabaseTestCaseMigrationOnce1Test.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/GetTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/MetadataTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/Postgre/ConnectTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/SQLite3/ConnectTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/SQLite3/ForgeModifyColumnTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/SQLite3/GetIndexDataTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/TransactionTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/UpsertTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Encryption/Handlers/OpenSSLHandlerTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Encryption/Handlers/SodiumHandlerTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Events/EventsTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Format/FormatTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/Files/FileCollectionTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/IncomingRequestDetectingTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/RedirectExceptionTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Images/ImageMagickHandlerTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Security/SecurityCSRFCookieRandomizeTokenTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Test/TestCaseEmissionsTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/View/ParserFilterTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/View/ParserTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/system/Cache/CacheFactory.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Cache/Handlers/MemcachedHandler.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Cache/Handlers/PredisHandler.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Cache/Handlers/RedisHandler.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Cache/Handlers/WincacheHandler.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Cache/ResponseCache.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Commands/Cache/ClearCache.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Commands/Cache/InfoCache.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Commands/Database/Seed.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Commands/Database/ShowTableInfo.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Commands/Utilities/Namespaces.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Commands/Utilities/Routes/AutoRouterImproved/ControllerMethodReader.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Commands/Utilities/Routes/FilterCollector.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Commands/Utilities/Routes/SampleURIGenerator.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Debug/ExceptionHandler.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Debug/Toolbar/Collectors/Config.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Filters/ForceHTTPS.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Format/JSONFormatter.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Format/XMLFormatter.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/HotReloader/DirectoryHasher.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/HotReloader/IteratorFilter.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/HTTP/CLIRequest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/HTTP/Files/UploadedFile.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/HTTP/Negotiate.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/HTTP/SiteURIFactory.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Images/Handlers/GDHandler.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Images/Handlers/ImageMagickHandler.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Log/Logger.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Publisher/Publisher.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Router/AutoRouterImproved.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Session/Handlers/FileHandler.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Session/Handlers/MemcachedHandler.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Session/Handlers/RedisHandler.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Test/Fabricator.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Test/Mock/MockAppConfig.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Test/Mock/MockAutoload.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Test/Mock/MockCLIConfig.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Test/Mock/MockLogger.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Typography/Typography.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/Validation/Rules.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/system/View/Parser.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/FactoriesCacheFileHandlerTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/DummyHandlerTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Commands/ClearCacheTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Commands/Database/ShowTableInfoTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Commands/InfoCacheTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Commands/Translation/LocalizationFinderTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Commands/Translation/LocalizationSyncTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Commands/Utilities/Routes/AutoRouterImproved/AutoRouteCollectorTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/CommonSingleServiceTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Config/fixtures/Encryption.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/DatabaseTestCase/DatabaseTestCaseMigrationOnce2Test.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/DatabaseTestCaseTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/DeleteTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/MySQLi/GetFieldDataTestCase.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/OCI8/ConnectionTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/OCI8/GetFieldDataTestCase.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/Postgre/GetFieldDataTestCase.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/SQLite3/AlterTableTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/SQLite3/GetFieldDataTestCase.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/SQLSRV/GetFieldDataTestCase.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/UpdateTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Filters/CSRFTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Filters/DebugToolbarTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Helpers/SecurityHelperTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/I18n/TimeLegacyTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/I18n/TimeTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/InsertModelTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/UpdateModelTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/ValidationModelTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/RESTful/ResourcePresenterTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Session/Handlers/Database/RedisHandlerTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Test/TestLoggerTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/View/ParserPluginTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/View/ViewTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/View/DecoratorsTest.php",
+      "from": "Framework",
+      "to": "Application",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/system/Config/BaseService.php",
+      "from": "Application",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/FileHandlerTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/SiteURIFactoryTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/system/Config/BaseService.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Helpers/URLHelper/CurrentUrlTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Helpers/URLHelper/MiscUrlTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Helpers/URLHelper/SiteUrlTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HotReloader/DirectoryHasherTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/SiteURIFactoryDetectRoutePathTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/CreditCardRulesTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/DatabaseRelatedRulesTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/FileRulesTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/StrictRules/FormatRulesTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/StrictRules/RulesTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/StrictRules/ValidationTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Autoloader/FileLocatorCachedTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/FactoriesCacheFileHandlerTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/FactoriesCacheFileVarExportHandlerTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/MemcachedHandlerTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/PredisHandlerTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/RedisHandlerTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/TransactionDBDebugFalseTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/CURLRequestShareOptionsTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Session/Handlers/Database/MySQLiHandlerTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Session/Handlers/Database/PostgreHandlerTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/SuperglobalsTest.php",
+      "from": "Tests",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Config/ServicesTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 63
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Test/FabricatorTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 48
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Config/FactoriesTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 46
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/UpdateModelTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 40
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/LiveModelTestCase.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 34
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/FindModelTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 31
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Filters/FiltersTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 30
+    },
+    {
+      "file": "CodeIgniter4/tests/system/View/ControlledCellTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 30
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/DataConverterModelTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 28
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Router/AutoRouterImprovedTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 28
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Config/BaseConfigTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 27
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/InsertModelTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 26
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/SaveModelTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 25
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Log/LoggerTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 22
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/DeleteModelTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 22
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/ValidationModelRuleGroupTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 17
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/ValidationModelTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 16
+    },
+    {
+      "file": "CodeIgniter4/tests/system/RESTful/ResourcePresenterTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 16
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Test/ControllerTestTraitTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 16
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/MiscellaneousModelTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 14
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Log/Handlers/FileHandlerTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 12
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/PaginateModelTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 12
+    },
+    {
+      "file": "CodeIgniter4/tests/system/DataConverter/DataConverterTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 11
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Entity/EntityTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 11
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Commands/Utilities/Routes/AutoRouterImproved/ControllerMethodReaderTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 10
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/FabricatorLiveTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 9
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/TimestampModelTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 9
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Test/ReflectionHelperTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 9
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/CountAllModelTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 8
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/GeneralModelTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 8
+    },
+    {
+      "file": "CodeIgniter4/tests/system/RESTful/ResourceControllerTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 7
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Router/RouteCollectionTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 7
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Commands/CommandTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 6
+    },
+    {
+      "file": "CodeIgniter4/tests/system/CommonFunctionsTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 6
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/WhenWhenNotModelTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 6
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Session/Handlers/Database/AbstractHandlerTestCase.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 6
+    },
+    {
+      "file": "CodeIgniter4/tests/system/View/DecoratorsTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 6
+    },
+    {
+      "file": "CodeIgniter4/tests/system/CodeIgniterTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Commands/BaseCommandTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Commands/PublishCommandTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Language/LanguageTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Test/FilterTestTraitTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 5
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/FileHandlerTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Commands/Utilities/Routes/ControllerMethodReaderTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/DatabaseTestCaseTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/TransactionDBDebugTrueTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Migrations/MigrationRunnerTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/EventsModelTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/ReplaceModelTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/CreditCardRulesTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/DatabaseRelatedRulesTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/FileRulesTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/FormatRulesTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/RulesTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/StrictRules/CreditCardRulesTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/StrictRules/DatabaseRelatedRulesTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/StrictRules/FileRulesTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/StrictRules/FormatRulesTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/StrictRules/RulesTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/StrictRules/ValidationTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/ValidationTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/BaseHandlerTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/CommonHelperTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/RedirectExceptionTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/AffectedRowsTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/GetCompiledModelTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Publisher/PublisherSupportTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Router/RouterTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 3
+    },
+    {
+      "file": "CodeIgniter4/system/Test/Mock/MockLogger.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Autoloader/AutoloaderTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Commands/Database/ShowTableInfoTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Commands/Utilities/Routes/ControllerFinderTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/AliasTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/BadQueryTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/CountTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/DatabaseTestTraitCaseTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/DbUtilsTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/DeleteTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/EmptyTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/ForgeTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/FromTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/GetNumRowsTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/GetTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/GroupTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/IncrementTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/InsertTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/JoinTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/LikeTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/LimitTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/MetadataTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/MySQLi/FoundRowsTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/MySQLi/GetFieldDataTestCase.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/MySQLi/NumberNativeTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/MySQLi/RawSqlTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/OCI8/GetFieldDataTestCase.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/OCI8/LastInsertIDTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/OrderTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/Postgre/GetFieldDataTestCase.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/PreparedQueryTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/SelectTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/SQLite3/GetFieldDataTestCase.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/SQLSRV/GetFieldDataTestCase.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/TransactionTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/UnionTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/UpdateTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/UpsertTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/WhereTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/WriteTypeQueryTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Helpers/SecurityHelperTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Test/TestCaseTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/View/TableTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Autoloader/FileLocatorCachedTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/FactoriesCacheFileHandlerTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/FactoriesCacheFileVarExportHandlerTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/MemcachedHandlerTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/PredisHandlerTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/RedisHandlerTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/TransactionDBDebugFalseTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/CURLRequestShareOptionsTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Session/Handlers/Database/MySQLiHandlerTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Session/Handlers/Database/PostgreHandlerTest.php",
+      "from": "Framework",
+      "to": "Tests",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Filters/FiltersTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 30
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Router/AutoRouterImprovedTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 28
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Config/BaseConfigTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 23
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Commands/Utilities/Routes/AutoRouterImproved/ControllerMethodReaderTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 6
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/FileHandlerTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/MySQLi/GetFieldDataTestCase.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/OCI8/GetFieldDataTestCase.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/Postgre/GetFieldDataTestCase.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/SQLite3/GetFieldDataTestCase.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/SQLSRV/GetFieldDataTestCase.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/CreditCardRulesTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/DatabaseRelatedRulesTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/FileRulesTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/StrictRules/FormatRulesTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/StrictRules/RulesTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/StrictRules/ValidationTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/View/TableTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Autoloader/FileLocatorCachedTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/FactoriesCacheFileHandlerTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/FactoriesCacheFileVarExportHandlerTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/MemcachedHandlerTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/PredisHandlerTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/RedisHandlerTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/TransactionDBDebugFalseTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/CURLRequestShareOptionsTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/AffectedRowsTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/CountAllModelTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/DataConverterModelTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/DeleteModelTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/EventsModelTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/FindModelTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/InsertModelTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/MiscellaneousModelTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/PaginateModelTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/ReplaceModelTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/SaveModelTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/TimestampModelTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/UpdateModelTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/ValidationModelRuleGroupTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/ValidationModelTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Models/WhenWhenNotModelTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Session/Handlers/Database/MySQLiHandlerTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Session/Handlers/Database/PostgreHandlerTest.php",
+      "from": "Framework",
+      "to": "Framework",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/FileHandlerTest.php",
+      "from": "Tests",
+      "to": "Tests",
+      "count": 4
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/CreditCardRulesTest.php",
+      "from": "Tests",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/DatabaseRelatedRulesTest.php",
+      "from": "Tests",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/FileRulesTest.php",
+      "from": "Tests",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/StrictRules/FormatRulesTest.php",
+      "from": "Tests",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/StrictRules/RulesTest.php",
+      "from": "Tests",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Validation/StrictRules/ValidationTest.php",
+      "from": "Tests",
+      "to": "Tests",
+      "count": 2
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Autoloader/FileLocatorCachedTest.php",
+      "from": "Tests",
+      "to": "Tests",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/FactoriesCacheFileHandlerTest.php",
+      "from": "Tests",
+      "to": "Tests",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/FactoriesCacheFileVarExportHandlerTest.php",
+      "from": "Tests",
+      "to": "Tests",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/MemcachedHandlerTest.php",
+      "from": "Tests",
+      "to": "Tests",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/PredisHandlerTest.php",
+      "from": "Tests",
+      "to": "Tests",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Cache/Handlers/RedisHandlerTest.php",
+      "from": "Tests",
+      "to": "Tests",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Database/Live/TransactionDBDebugFalseTest.php",
+      "from": "Tests",
+      "to": "Tests",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/HTTP/CURLRequestShareOptionsTest.php",
+      "from": "Tests",
+      "to": "Tests",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Session/Handlers/Database/MySQLiHandlerTest.php",
+      "from": "Tests",
+      "to": "Tests",
+      "count": 1
+    },
+    {
+      "file": "CodeIgniter4/tests/system/Session/Handlers/Database/PostgreHandlerTest.php",
+      "from": "Tests",
+      "to": "Tests",
+      "count": 1
+    }
+  ]
+}

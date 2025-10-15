@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "repo": {
+    "name": "CodeIgniter 4",
+    "analysis_utc": "2025-10-15T05:13:25.341843Z"
+  },
+  "levels": {
+    "architecture_review": {
+      "cost_usd": 0.166866,
+      "time_seconds": 107.771,
+      "tokens_in": 29632,
+      "tokens_out": 5198,
+      "model": "anthropic/claude-sonnet-4.5",
+      "calls": [
+        {
+          "id": "gen-1760505097-smZSJSpKkMuj31NJ5kW8",
+          "model": "anthropic/claude-sonnet-4.5",
+          "cost_usd": 0.166866,
+          "prompt_tokens": 29632,
+          "completion_tokens": 5198,
+          "total_tokens": 34830,
+          "cached_prompt_tokens": 0,
+          "reasoning_tokens": 0,
+          "started_at": "2025-10-15T05:11:37.550602Z",
+          "finished_at": "2025-10-15T05:13:25.315536Z"
+        }
+      ]
+    }
+  },
+  "totals": {
+    "cost_usd": 0.166866,
+    "time_seconds": 107.771,
+    "tokens_in": 29632,
+    "tokens_out": 5198
+  },
+  "legacy": {
+    "project": "CodeIgniter 4",
+    "domain": "web development",
+    "model": "anthropic/claude-sonnet-4.5",
+    "timestamp": "2025-10-15T05:13:25.341924",
+    "cost_usd": 0.166866,
+    "duration_seconds": 107.77078890800476,
+    "input_tokens": 29632,
+    "output_tokens": 5198,
+    "total_tokens": 34830
+  }
+}

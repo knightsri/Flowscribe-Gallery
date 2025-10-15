@@ -1,0 +1,189 @@
+{
+  "version": "1.0",
+  "repo": {
+    "name": "WordPress",
+    "analysis_utc": "2025-10-15T04:24:39.122701Z"
+  },
+  "levels": {
+    "level4": {
+      "cost_usd": 0.049844,
+      "time_seconds": 189.949,
+      "tokens_in": 90435,
+      "tokens_out": 21471,
+      "model": "x-ai/grok-code-fast-1",
+      "calls": [
+        {
+          "id": "gen-1760502103-Si9dspMiGqgrvH03mg2S",
+          "model": "x-ai/grok-code-fast-1",
+          "cost_usd": 0.00320994,
+          "prompt_tokens": 795,
+          "completion_tokens": 2057,
+          "total_tokens": 2852,
+          "cached_prompt_tokens": 192,
+          "reasoning_tokens": 659,
+          "started_at": "2025-10-15T04:21:42.935273Z",
+          "finished_at": "2025-10-15T04:21:58.263955Z"
+        },
+        {
+          "id": "gen-1760502118-NiChkZNQzsReRSjk9rhC",
+          "model": "x-ai/grok-code-fast-1",
+          "cost_usd": 0.00342254,
+          "prompt_tokens": 8698,
+          "completion_tokens": 1145,
+          "total_tokens": 9843,
+          "cached_prompt_tokens": 192,
+          "reasoning_tokens": 663,
+          "started_at": "2025-10-15T04:21:58.289387Z",
+          "finished_at": "2025-10-15T04:22:07.575113Z"
+        },
+        {
+          "id": "gen-1760502127-L6O7BBpQTxykg0xdpPQp",
+          "model": "x-ai/grok-code-fast-1",
+          "cost_usd": 0.00450754,
+          "prompt_tokens": 9383,
+          "completion_tokens": 1777,
+          "total_tokens": 11160,
+          "cached_prompt_tokens": 192,
+          "reasoning_tokens": 502,
+          "started_at": "2025-10-15T04:22:07.597952Z",
+          "finished_at": "2025-10-15T04:22:26.703029Z"
+        },
+        {
+          "id": "gen-1760502146-cV5OxFVHCNgP3pfJCmT4",
+          "model": "x-ai/grok-code-fast-1",
+          "cost_usd": 0.00377414,
+          "prompt_tokens": 8986,
+          "completion_tokens": 1341,
+          "total_tokens": 10327,
+          "cached_prompt_tokens": 192,
+          "reasoning_tokens": 281,
+          "started_at": "2025-10-15T04:22:26.737736Z",
+          "finished_at": "2025-10-15T04:22:37.232687Z"
+        },
+        {
+          "id": "gen-1760502157-KEs2gSwfXY8SREhOqddV",
+          "model": "x-ai/grok-code-fast-1",
+          "cost_usd": 0.00442784,
+          "prompt_tokens": 9547,
+          "completion_tokens": 1702,
+          "total_tokens": 11249,
+          "cached_prompt_tokens": 192,
+          "reasoning_tokens": 515,
+          "started_at": "2025-10-15T04:22:37.254098Z",
+          "finished_at": "2025-10-15T04:22:49.063208Z"
+        },
+        {
+          "id": "gen-1760502169-RfdpxyS3q23rDEKVqFsB",
+          "model": "x-ai/grok-code-fast-1",
+          "cost_usd": 0.00518034,
+          "prompt_tokens": 8862,
+          "completion_tokens": 2295,
+          "total_tokens": 11157,
+          "cached_prompt_tokens": 192,
+          "reasoning_tokens": 525,
+          "started_at": "2025-10-15T04:22:49.086133Z",
+          "finished_at": "2025-10-15T04:23:04.714829Z"
+        },
+        {
+          "id": "gen-1760502185-HPMJKudEoOmL9jwzUcE5",
+          "model": "x-ai/grok-code-fast-1",
+          "cost_usd": 0.00434384,
+          "prompt_tokens": 8572,
+          "completion_tokens": 1776,
+          "total_tokens": 10348,
+          "cached_prompt_tokens": 192,
+          "reasoning_tokens": 630,
+          "started_at": "2025-10-15T04:23:04.769493Z",
+          "finished_at": "2025-10-15T04:23:18.024362Z"
+        },
+        {
+          "id": "gen-1760502198-mczMOoeqg4HHyYqL4d9E",
+          "model": "x-ai/grok-code-fast-1",
+          "cost_usd": 0.00287704,
+          "prompt_tokens": 8228,
+          "completion_tokens": 844,
+          "total_tokens": 9072,
+          "cached_prompt_tokens": 192,
+          "reasoning_tokens": 507,
+          "started_at": "2025-10-15T04:23:18.060854Z",
+          "finished_at": "2025-10-15T04:23:24.726941Z"
+        },
+        {
+          "id": "gen-1760502204-eMdFDx8J0JodbYagFbU2",
+          "model": "x-ai/grok-code-fast-1",
+          "cost_usd": 0.00317964,
+          "prompt_tokens": 831,
+          "completion_tokens": 2032,
+          "total_tokens": 2863,
+          "cached_prompt_tokens": 192,
+          "reasoning_tokens": 1329,
+          "started_at": "2025-10-15T04:23:24.760671Z",
+          "finished_at": "2025-10-15T04:23:45.509009Z"
+        },
+        {
+          "id": "gen-1760502225-ANsatN0Vg0qTHL7Kutxy",
+          "model": "x-ai/grok-code-fast-1",
+          "cost_usd": 0.00426044,
+          "prompt_tokens": 8500,
+          "completion_tokens": 1730,
+          "total_tokens": 10230,
+          "cached_prompt_tokens": 192,
+          "reasoning_tokens": 676,
+          "started_at": "2025-10-15T04:23:45.530025Z",
+          "finished_at": "2025-10-15T04:24:06.003998Z"
+        },
+        {
+          "id": "gen-1760502246-0FlKG8C3nrXyb956dLQ5",
+          "model": "x-ai/grok-code-fast-1",
+          "cost_usd": 0.00400814,
+          "prompt_tokens": 8041,
+          "completion_tokens": 1623,
+          "total_tokens": 9664,
+          "cached_prompt_tokens": 192,
+          "reasoning_tokens": 556,
+          "started_at": "2025-10-15T04:24:06.021556Z",
+          "finished_at": "2025-10-15T04:24:17.190240Z"
+        },
+        {
+          "id": "gen-1760502257-MBMVnYo9qAIxu9SWK6oN",
+          "model": "x-ai/grok-code-fast-1",
+          "cost_usd": 0.00393594,
+          "prompt_tokens": 8520,
+          "completion_tokens": 1511,
+          "total_tokens": 10031,
+          "cached_prompt_tokens": 192,
+          "reasoning_tokens": 450,
+          "started_at": "2025-10-15T04:24:17.213655Z",
+          "finished_at": "2025-10-15T04:24:28.211368Z"
+        },
+        {
+          "id": "gen-1760502268-XLshrhOujSrbWwGEVv34",
+          "model": "x-ai/grok-code-fast-1",
+          "cost_usd": 0.00271684,
+          "prompt_tokens": 1472,
+          "completion_tokens": 1638,
+          "total_tokens": 3110,
+          "cached_prompt_tokens": 192,
+          "reasoning_tokens": 515,
+          "started_at": "2025-10-15T04:24:28.241650Z",
+          "finished_at": "2025-10-15T04:24:39.102350Z"
+        }
+      ]
+    }
+  },
+  "totals": {
+    "cost_usd": 0.049844,
+    "time_seconds": 189.949,
+    "tokens_in": 90435,
+    "tokens_out": 21471
+  },
+  "legacy": {
+    "model": "x-ai/grok-code-fast-1",
+    "total_cost_usd": 0.049844,
+    "total_time_seconds": 189.949,
+    "total_input_tokens": 90435,
+    "total_output_tokens": 21471,
+    "generated_at": "2025-10-15T04:24:39.122734Z",
+    "components_documented": 12
+  }
+}

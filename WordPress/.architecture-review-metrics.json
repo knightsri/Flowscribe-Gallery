@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "repo": {
+    "name": "WordPress",
+    "analysis_utc": "2025-10-15T04:28:04.264523Z"
+  },
+  "levels": {
+    "architecture_review": {
+      "cost_usd": 0.346443,
+      "time_seconds": 204.538,
+      "tokens_in": 56921,
+      "tokens_out": 11712,
+      "model": "anthropic/claude-sonnet-4.5",
+      "calls": [
+        {
+          "id": "gen-1760502279-Vew6wEBCBhLGT8yx19CU",
+          "model": "anthropic/claude-sonnet-4.5",
+          "cost_usd": 0.346443,
+          "prompt_tokens": 56921,
+          "completion_tokens": 11712,
+          "total_tokens": 68633,
+          "cached_prompt_tokens": 0,
+          "reasoning_tokens": 0,
+          "started_at": "2025-10-15T04:24:39.715303Z",
+          "finished_at": "2025-10-15T04:28:04.249540Z"
+        }
+      ]
+    }
+  },
+  "totals": {
+    "cost_usd": 0.346443,
+    "time_seconds": 204.538,
+    "tokens_in": 56921,
+    "tokens_out": 11712
+  },
+  "legacy": {
+    "project": "WordPress",
+    "domain": "content management",
+    "model": "anthropic/claude-sonnet-4.5",
+    "timestamp": "2025-10-15T04:28:04.264582",
+    "cost_usd": 0.346443,
+    "duration_seconds": 204.53823971748352,
+    "input_tokens": 56921,
+    "output_tokens": 11712,
+    "total_tokens": 68633
+  }
+}

@@ -1,0 +1,87 @@
+{
+    "Report": {
+        "Violations": 10,
+        "Skipped violations": 0,
+        "Uncovered": 160,
+        "Allowed": 518,
+        "Warnings": 0,
+        "Errors": 0
+    },
+    "files": {
+        "\/workspace\/projects\/WordPress\/wp-includes\/class-wp-textdomain-registry.php": {
+            "messages": [
+                {
+                    "message": "WP_Textdomain_Registry must not depend on WP_Upgrader (Core on Admin)",
+                    "line": 223,
+                    "type": "error"
+                }
+            ],
+            "violations": 1
+        },
+        "\/workspace\/projects\/WordPress\/wp-includes\/customize\/class-wp-customize-header-image-setting.php": {
+            "messages": [
+                {
+                    "message": "WP_Customize_Header_Image_Setting must not depend on Custom_Image_Header (Core on Admin)",
+                    "line": 45,
+                    "type": "error"
+                }
+            ],
+            "violations": 1
+        },
+        "\/workspace\/projects\/WordPress\/wp-includes\/customize\/class-wp-customize-nav-menus-panel.php": {
+            "messages": [
+                {
+                    "message": "WP_Customize_Nav_Menus_Panel must not depend on WP_Screen (Core on Admin)",
+                    "line": 40,
+                    "type": "error"
+                }
+            ],
+            "violations": 1
+        },
+        "\/workspace\/projects\/WordPress\/wp-includes\/rest-api\/endpoints\/class-wp-rest-plugins-controller.php": {
+            "messages": [
+                {
+                    "message": "WP_REST_Plugins_Controller must not depend on WP_Ajax_Upgrader_Skin (Core on Admin)",
+                    "line": 310,
+                    "type": "error"
+                },
+                {
+                    "message": "WP_REST_Plugins_Controller must not depend on Plugin_Upgrader (Core on Admin)",
+                    "line": 311,
+                    "type": "error"
+                },
+                {
+                    "message": "WP_REST_Plugins_Controller must not depend on WP_Filesystem_Base (Core on Admin)",
+                    "line": 337,
+                    "type": "error"
+                },
+                {
+                    "message": "WP_REST_Plugins_Controller must not depend on Language_Pack_Upgrader (Core on Admin)",
+                    "line": 398,
+                    "type": "error"
+                }
+            ],
+            "violations": 4
+        },
+        "\/workspace\/projects\/WordPress\/wp-includes\/rest-api\/endpoints\/class-wp-rest-site-health-controller.php": {
+            "messages": [
+                {
+                    "message": "WP_REST_Site_Health_Controller must not depend on WP_Site_Health (Core on Admin)",
+                    "line": 19,
+                    "type": "error"
+                },
+                {
+                    "message": "WP_REST_Site_Health_Controller must not depend on WP_Site_Health (Core on Admin)",
+                    "line": 28,
+                    "type": "error"
+                },
+                {
+                    "message": "WP_REST_Site_Health_Controller must not depend on WP_Debug_Data (Core on Admin)",
+                    "line": 290,
+                    "type": "error"
+                }
+            ],
+            "violations": 3
+        }
+    }
+}

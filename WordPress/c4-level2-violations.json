@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "total": 10,
+  "by_pair": [
+    {
+      "from": "Core",
+      "to": "Admin",
+      "count": 10
+    }
+  ],
+  "by_rule": [
+    {
+      "rule": "unknown",
+      "count": 10
+    }
+  ],
+  "hotspots": [
+    {
+      "file": "WordPress/wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php",
+      "from": "Core",
+      "to": "Admin",
+      "count": 4
+    },
+    {
+      "file": "WordPress/wp-includes/rest-api/endpoints/class-wp-rest-site-health-controller.php",
+      "from": "Core",
+      "to": "Admin",
+      "count": 3
+    },
+    {
+      "file": "WordPress/wp-includes/class-wp-textdomain-registry.php",
+      "from": "Core",
+      "to": "Admin",
+      "count": 1
+    },
+    {
+      "file": "WordPress/wp-includes/customize/class-wp-customize-header-image-setting.php",
+      "from": "Core",
+      "to": "Admin",
+      "count": 1
+    },
+    {
+      "file": "WordPress/wp-includes/customize/class-wp-customize-nav-menus-panel.php",
+      "from": "Core",
+      "to": "Admin",
+      "count": 1
+    }
+  ]
+}

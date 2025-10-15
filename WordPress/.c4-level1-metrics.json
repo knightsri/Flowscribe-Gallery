@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "repo": {
+    "name": "WordPress",
+    "analysis_utc": "2025-10-15T04:20:40.320687Z"
+  },
+  "levels": {
+    "level1": {
+      "cost_usd": 0.001827,
+      "time_seconds": 13.07,
+      "tokens_in": 3231,
+      "tokens_out": 1171,
+      "model": "x-ai/grok-code-fast-1",
+      "calls": [
+        {
+          "id": "gen-1760502027-7MjaQ5RE043HFrGg2V8D",
+          "model": "x-ai/grok-code-fast-1",
+          "cost_usd": 0.0018267,
+          "prompt_tokens": 3231,
+          "completion_tokens": 1171,
+          "total_tokens": 4402,
+          "cached_prompt_tokens": 3200,
+          "reasoning_tokens": 590,
+          "started_at": "2025-10-15T04:20:27.221777Z",
+          "finished_at": "2025-10-15T04:20:40.292136Z"
+        }
+      ]
+    }
+  },
+  "totals": {
+    "cost_usd": 0.001827,
+    "time_seconds": 13.07,
+    "tokens_in": 3231,
+    "tokens_out": 1171
+  },
+  "legacy": {
+    "model": "x-ai/grok-code-fast-1",
+    "duration_seconds": 13.070361852645874,
+    "input_tokens": 3231,
+    "output_tokens": 1171,
+    "total_tokens": 4402,
+    "cost_usd": 0.0018267
+  }
+}

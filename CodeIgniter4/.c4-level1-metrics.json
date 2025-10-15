@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "repo": {
+    "name": "CodeIgniter 4",
+    "analysis_utc": "2025-10-15T05:06:37.703508Z"
+  },
+  "levels": {
+    "level1": {
+      "cost_usd": 0.002035,
+      "time_seconds": 11.223,
+      "tokens_in": 1924,
+      "tokens_out": 1123,
+      "model": "x-ai/grok-code-fast-1",
+      "calls": [
+        {
+          "id": "gen-1760504786-4B1Tel97fkC6BaQR589o",
+          "model": "x-ai/grok-code-fast-1",
+          "cost_usd": 0.00203474,
+          "prompt_tokens": 1924,
+          "completion_tokens": 1123,
+          "total_tokens": 3047,
+          "cached_prompt_tokens": 192,
+          "reasoning_tokens": 477,
+          "started_at": "2025-10-15T05:06:26.465223Z",
+          "finished_at": "2025-10-15T05:06:37.688013Z"
+        }
+      ]
+    }
+  },
+  "totals": {
+    "cost_usd": 0.002035,
+    "time_seconds": 11.223,
+    "tokens_in": 1924,
+    "tokens_out": 1123
+  },
+  "legacy": {
+    "model": "x-ai/grok-code-fast-1",
+    "duration_seconds": 11.222792148590088,
+    "input_tokens": 1924,
+    "output_tokens": 1123,
+    "total_tokens": 3047,
+    "cost_usd": 0.00203474
+  }
+}
