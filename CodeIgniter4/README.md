@@ -86,8 +86,8 @@ flowchart TB
     end
     style Application fill:#f3e5f5,stroke:#b0bec5,stroke-width:1px
     classDef small fill:#f3e5f5,stroke:#b0bec5,color:#263238;
-    Framework --> Tests
-    Tests --> Application
+Framework --> Tests
+Tests --> Application
 ```
 
 ### Layers

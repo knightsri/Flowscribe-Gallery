@@ -93,14 +93,14 @@ public getPerformanceStats(): array
 ```mermaid
 classDiagram
     class CodeIgniter
-    CodeIgniter ..> Config\App
-    CodeIgniter ..> CodeIgniter\Services
-    CodeIgniter ..> CodeIgniter\Events\Events
-    CodeIgniter ..> CodeIgniter\Filters\Filters
-    CodeIgniter ..> CodeIgniter\Router\Router
+CodeIgniter ..> Config\App
+CodeIgniter ..> CodeIgniter\Services
+CodeIgniter ..> CodeIgniter\Events\Events
+CodeIgniter ..> CodeIgniter\Filters\Filters
+CodeIgniter ..> CodeIgniter\Router\Router
     CodeIgniter\HTTP\ResponseInterface <|.. CodeIgniter
-    CodeIgniter ..> CodeIgniter\Cache\ResponseCache
-    CodeIgniter ..> CodeIgniter\Debug\Timer
+CodeIgniter ..> CodeIgniter\Cache\ResponseCache
+CodeIgniter ..> CodeIgniter\Debug\Timer
 ```
 
 **Dependency Details:**

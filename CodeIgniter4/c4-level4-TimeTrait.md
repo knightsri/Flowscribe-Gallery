@@ -107,16 +107,16 @@ public toLocalizedString(?string $format = null)
 ```mermaid
 classDiagram
     class TimeTrait
-    TimeTrait ..> DateTime
-    TimeTrait ..> DateTimeZone
-    TimeTrait ..> DateTimeInterface
-    TimeTrait ..> DateTimeImmutable
-    TimeTrait ..> DateInterval
-    TimeTrait ..> IntlCalendar
-    TimeTrait ..> IntlDateFormatter
-    TimeTrait ..> Locale
-    TimeTrait ..> I18nException
-    TimeTrait ..> ReturnTypeWillChange
+TimeTrait ..> DateTime
+TimeTrait ..> DateTimeZone
+TimeTrait ..> DateTimeInterface
+TimeTrait ..> DateTimeImmutable
+TimeTrait ..> DateInterval
+TimeTrait ..> IntlCalendar
+TimeTrait ..> IntlDateFormatter
+TimeTrait ..> Locale
+TimeTrait ..> I18nException
+TimeTrait ..> ReturnTypeWillChange
 ```
 
 **Dependency Details:**

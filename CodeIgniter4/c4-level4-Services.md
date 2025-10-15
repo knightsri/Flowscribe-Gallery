@@ -128,14 +128,14 @@ public typography()
 classDiagram
     class Services
     BaseService <|-- Services
-    Services ..> CacheInterface
-    Services ..> CacheFactory
-    Services ..> Email
-    Services ..> Session
-    Services ..> Cache
-    Services ..> EmailConfig
-    Services ..> SessionConfig
-    Services ..> App
+Services ..> CacheInterface
+Services ..> CacheFactory
+Services ..> Email
+Services ..> Session
+Services ..> Cache
+Services ..> EmailConfig
+Services ..> SessionConfig
+Services ..> App
 ```
 
 **Dependency Details:**

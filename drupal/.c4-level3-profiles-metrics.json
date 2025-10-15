@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "repo": {
+    "name": "Drupal",
+    "analysis_utc": "2025-10-15T06:03:40.896633Z"
+  },
+  "levels": {
+    "level3_profiles": {
+      "cost_usd": 0.0,
+      "time_seconds": 344.939,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "model": "none"
+    }
+  },
+  "totals": {
+    "cost_usd": 0.0,
+    "time_seconds": 344.939,
+    "tokens_in": 0,
+    "tokens_out": 0
+  },
+  "legacy": {
+    "model": "none",
+    "total_cost_usd": 0.0,
+    "total_time_seconds": 344.939,
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "generated_at": "2025-10-15T06:03:40.896689Z",
+    "layer": "Profiles",
+    "component_count": 5
+  }
+}

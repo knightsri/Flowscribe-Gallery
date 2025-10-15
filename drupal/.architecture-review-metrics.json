@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "repo": {
+    "name": "Drupal",
+    "analysis_utc": "2025-10-15T06:25:03.949184Z"
+  },
+  "levels": {
+    "architecture_review": {
+      "cost_usd": 0.993894,
+      "time_seconds": 236.657,
+      "tokens_in": 269363,
+      "tokens_out": 12387,
+      "model": "anthropic/claude-sonnet-4.5",
+      "calls": [
+        {
+          "id": "gen-1760509267-4SgJp3tsAxcXnIDUdYRe",
+          "model": "anthropic/claude-sonnet-4.5",
+          "cost_usd": 0.993894,
+          "prompt_tokens": 269363,
+          "completion_tokens": 12387,
+          "total_tokens": 281750,
+          "cached_prompt_tokens": 0,
+          "reasoning_tokens": 0,
+          "started_at": "2025-10-15T06:21:07.286963Z",
+          "finished_at": "2025-10-15T06:25:03.942067Z"
+        }
+      ]
+    }
+  },
+  "totals": {
+    "cost_usd": 0.993894,
+    "time_seconds": 236.657,
+    "tokens_in": 269363,
+    "tokens_out": 12387
+  },
+  "legacy": {
+    "project": "Drupal",
+    "domain": "content management",
+    "model": "anthropic/claude-sonnet-4.5",
+    "timestamp": "2025-10-15T06:25:03.949228",
+    "cost_usd": 0.993894,
+    "duration_seconds": 236.65652799606323,
+    "input_tokens": 269363,
+    "output_tokens": 12387,
+    "total_tokens": 281750
+  }
+}

@@ -117,11 +117,11 @@ public ignore($ignore = true)
 ```mermaid
 classDiagram
     class BaseBuilder
-    BaseBuilder ..> ConditionalTrait
-    BaseBuilder ..> ConnectionInterface
-    BaseBuilder ..> BaseConnection
-    BaseBuilder ..> RawSql
-    BaseBuilder ..> TableName
+BaseBuilder ..> ConditionalTrait
+BaseBuilder ..> ConnectionInterface
+BaseBuilder ..> BaseConnection
+BaseBuilder ..> RawSql
+BaseBuilder ..> TableName
 ```
 
 **Dependency Details:**

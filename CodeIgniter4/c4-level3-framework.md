@@ -71,17 +71,17 @@ graph TB
             ScaffoldGenerator[ScaffoldGenerator]
             SeederGenerator[SeederGenerator]
             ValidationGenerator[ValidationGenerator]
-            cell.tpl[cell.tpl]
-            cell_view.tpl[cell_view.tpl]
-            command.tpl[command.tpl]
-            config.tpl[config.tpl]
-            controller.tpl[controller.tpl]
-            entity.tpl[entity.tpl]
-            filter.tpl[filter.tpl]
-            migration.tpl[migration.tpl]
-            model.tpl[model.tpl]
-            seeder.tpl[seeder.tpl]
-            validation.tpl[validation.tpl]
+            cell_tpl[cell.tpl]
+            cell_view_tpl[cell_view.tpl]
+            command_tpl[command.tpl]
+            config_tpl[config.tpl]
+            controller_tpl[controller.tpl]
+            entity_tpl[entity.tpl]
+            filter_tpl[filter.tpl]
+            migration_tpl[migration.tpl]
+            model_tpl[model.tpl]
+            seeder_tpl[seeder.tpl]
+            validation_tpl[validation.tpl]
             ClearDebugbar[ClearDebugbar]
             ClearLogs[ClearLogs]
             Serve[Serve]
@@ -174,7 +174,7 @@ graph TB
             Logs[Logs]
             Timers[Timers]
             Views[Views]
-            toolbar.tpl[toolbar.tpl]
+            toolbar_tpl[toolbar.tpl]
             Email[Email]
             EncrypterInterface[EncrypterInterface]
             Encryption[Encryption]
@@ -469,41 +469,41 @@ graph TB
     end
 
     %% Component Dependencies
-    FileLocatorCachedTest --> FileLocatorTest
-    FactoriesCacheFileHandlerTest --> AbstractFactoriesCacheHandlerTestCase
-    FactoriesCacheFileVarExportHandlerTest --> AbstractFactoriesCacheHandlerTestCase
-    FileHandlerTest --> BaseTestFileHandler
-    FileHandlerTest --> BaseTestFileHandler
-    FileHandlerTest --> BaseTestFileHandler
-    FileHandlerTest --> AbstractHandlerTestCase
-    MemcachedHandlerTest --> AbstractHandlerTestCase
-    PredisHandlerTest --> AbstractHandlerTestCase
-    RedisHandlerTest --> AbstractHandlerTestCase
-    ControllerMethodReaderTest --> Dash_controller
-    ControllerMethodReaderTest --> BlogController
-    ControllerMethodReaderTest --> Home
-    ControllerMethodReaderTest --> Dash_controller
-    ControllerMethodReaderTest --> Home
-    ControllerMethodReaderTest --> BlogController
-    BaseConfigTest --> SimpleConfig
-    BaseConfigTest --> SimpleConfig
-    BaseConfigTest --> SimpleConfig
-    BaseConfigTest --> SimpleConfig
+FileLocatorCachedTest --> FileLocatorTest
+FactoriesCacheFileHandlerTest --> AbstractFactoriesCacheHandlerTestCase
+FactoriesCacheFileVarExportHandlerTest --> AbstractFactoriesCacheHandlerTestCase
+FileHandlerTest --> BaseTestFileHandler
+FileHandlerTest --> BaseTestFileHandler
+FileHandlerTest --> BaseTestFileHandler
+FileHandlerTest --> AbstractHandlerTestCase
+MemcachedHandlerTest --> AbstractHandlerTestCase
+PredisHandlerTest --> AbstractHandlerTestCase
+RedisHandlerTest --> AbstractHandlerTestCase
+ControllerMethodReaderTest --> Dash_controller
+ControllerMethodReaderTest --> BlogController
+ControllerMethodReaderTest --> Home
+ControllerMethodReaderTest --> Dash_controller
+ControllerMethodReaderTest --> Home
+ControllerMethodReaderTest --> BlogController
+BaseConfigTest --> SimpleConfig
+BaseConfigTest --> SimpleConfig
+BaseConfigTest --> SimpleConfig
+BaseConfigTest --> SimpleConfig
     %% ... and 121 more internal dependencies
 
     %% External Layer Dependencies
     Tests[Tests Layer]
     Application[Application Layer]
-    Autoloader -.-> Application
-    Autoloader -.-> Application
-    Autoloader -.-> Application
-    Autoloader -.-> Application
-    Autoloader -.-> Application
-    Autoloader -.-> Application
-    Autoloader -.-> Application
-    BaseModel -.-> Application
-    BaseModel -.-> Application
-    BaseModel -.-> Application
+Autoloader -.-> Application
+Autoloader -.-> Application
+Autoloader -.-> Application
+Autoloader -.-> Application
+Autoloader -.-> Application
+Autoloader -.-> Application
+Autoloader -.-> Application
+BaseModel -.-> Application
+BaseModel -.-> Application
+BaseModel -.-> Application
     %% ... and 8396 more external dependencies
 ```
 

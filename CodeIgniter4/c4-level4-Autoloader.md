@@ -105,11 +105,11 @@ public sanitizeFilename(string $filename)
 ```mermaid
 classDiagram
     class Autoloader
-    Autoloader ..> Config\Autoload
-    Autoloader ..> Config\Modules
-    Autoloader ..> Composer\Autoload\ClassLoader
-    Autoloader ..> Kint\Kint
-    Autoloader ..> Composer\InstalledVersions
+Autoloader ..> Config\Autoload
+Autoloader ..> Config\Modules
+Autoloader ..> Composer\Autoload\ClassLoader
+Autoloader ..> Kint\Kint
+Autoloader ..> Composer\InstalledVersions
 ```
 
 **Dependency Details:**

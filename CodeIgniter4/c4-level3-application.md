@@ -68,7 +68,7 @@ graph TB
 
     %% External Layer Dependencies
     Framework[Framework Layer]
-    BaseService -.-> Framework
+BaseService -.-> Framework
 ```
 
 ---

@@ -125,10 +125,10 @@ public isWriteType(string $sql): bool
 classDiagram
     class BaseConnection
     ConnectionInterface <|.. BaseConnection
-    BaseConnection ..> Query
-    BaseConnection ..> Events
-    BaseConnection ..> DatabaseException
-    BaseConnection ..> Stringable
+BaseConnection ..> Query
+BaseConnection ..> Events
+BaseConnection ..> DatabaseException
+BaseConnection ..> Stringable
 ```
 
 **Dependency Details:**

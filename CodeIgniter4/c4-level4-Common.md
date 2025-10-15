@@ -154,16 +154,16 @@ public view_cell(string $library, ?string $params = null, int $ttl = 0, ?string 
 ```mermaid
 classDiagram
     class Common
-    Common ..> CodeIgniter\Cache\CacheInterface
-    Common ..> CodeIgniter\Config\BaseConfig
-    Common ..> CodeIgniter\Config\Factories
-    Common ..> CodeIgniter\Cookie\Cookie
-    Common ..> CodeIgniter\Cookie\CookieStore
-    Common ..> CodeIgniter\Database\BaseConnection
-    Common ..> CodeIgniter\Database\ConnectionInterface
-    Common ..> CodeIgniter\Debug\Timer
-    Common ..> CodeIgniter\HTTP\CLIRequest
-    Common ..> CodeIgniter\HTTP\IncomingRequest
+Common ..> CodeIgniter\Cache\CacheInterface
+Common ..> CodeIgniter\Config\BaseConfig
+Common ..> CodeIgniter\Config\Factories
+Common ..> CodeIgniter\Cookie\Cookie
+Common ..> CodeIgniter\Cookie\CookieStore
+Common ..> CodeIgniter\Database\BaseConnection
+Common ..> CodeIgniter\Database\ConnectionInterface
+Common ..> CodeIgniter\Debug\Timer
+Common ..> CodeIgniter\HTTP\CLIRequest
+Common ..> CodeIgniter\HTTP\IncomingRequest
 ```
 
 **Dependency Details:**

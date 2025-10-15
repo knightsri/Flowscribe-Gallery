@@ -113,10 +113,10 @@ public chunk(int $size, Closure $userFunc)
 ```mermaid
 classDiagram
     class BaseModel
-    BaseModel ..> BaseConnection
-    BaseModel ..> ValidationInterface
-    BaseModel ..> DataConverter
-    BaseModel ..> Pager
+BaseModel ..> BaseConnection
+BaseModel ..> ValidationInterface
+BaseModel ..> DataConverter
+BaseModel ..> Pager
 ```
 
 **Dependency Details:**

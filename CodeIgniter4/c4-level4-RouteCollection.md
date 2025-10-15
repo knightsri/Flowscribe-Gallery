@@ -101,10 +101,10 @@ public loadRoutes()
 classDiagram
     class RouteCollection
     RouteCollectionInterface <|.. RouteCollection
-    RouteCollection ..> FileLocatorInterface
-    RouteCollection ..> Modules
-    RouteCollection ..> Routing
-    RouteCollection ..> CodeIgniter\HTTP\Method
+RouteCollection ..> FileLocatorInterface
+RouteCollection ..> Modules
+RouteCollection ..> Routing
+RouteCollection ..> CodeIgniter\HTTP\Method
 ```
 
 **Dependency Details:**

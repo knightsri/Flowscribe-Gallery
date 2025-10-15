@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "repo": {
+    "name": "Drupal",
+    "analysis_utc": "2025-10-15T05:37:19.563927Z"
+  },
+  "levels": {
+    "level1": {
+      "cost_usd": 0.001886,
+      "time_seconds": 10.971,
+      "tokens_in": 2224,
+      "tokens_out": 984,
+      "model": "x-ai/grok-code-fast-1",
+      "calls": [
+        {
+          "id": "gen-1760506628-iFbfsAncWQDQfMeFIMS2",
+          "model": "x-ai/grok-code-fast-1",
+          "cost_usd": 0.00188624,
+          "prompt_tokens": 2224,
+          "completion_tokens": 984,
+          "total_tokens": 3208,
+          "cached_prompt_tokens": 192,
+          "reasoning_tokens": 428,
+          "started_at": "2025-10-15T05:37:08.582630Z",
+          "finished_at": "2025-10-15T05:37:19.553143Z"
+        }
+      ]
+    }
+  },
+  "totals": {
+    "cost_usd": 0.001886,
+    "time_seconds": 10.971,
+    "tokens_in": 2224,
+    "tokens_out": 984
+  },
+  "legacy": {
+    "model": "x-ai/grok-code-fast-1",
+    "duration_seconds": 10.970515012741089,
+    "input_tokens": 2224,
+    "output_tokens": 984,
+    "total_tokens": 3208,
+    "cost_usd": 0.00188624
+  }
+}

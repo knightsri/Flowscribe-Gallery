@@ -1,0 +1,62 @@
+{
+  "project": "Drupal",
+  "domain": "content management",
+  "repository": "https://github.com/drupal/drupal",
+  "analysis_date": "2025-10-15T06:25:13.004721",
+  "total_time_seconds": 4255.36162853241,
+  "total_cost_usd": 0.00312958,
+  "total_tokens": 5847,
+  "model": "x-ai/grok-code-fast-1",
+  "breakdown": {
+    "metadata_detection": {
+      "cost": 0.00101884,
+      "time": 3.0910091400146484,
+      "tokens": 3109
+    },
+    "deptrac_generation": {
+      "cost": 0.00211074,
+      "time": 14.63647174835205,
+      "tokens": 2738
+    },
+    "architecture_review": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    },
+    "level1": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    },
+    "level2": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    },
+    "level3_presentation": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    },
+    "level3_infrastructure": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    },
+    "level3_persistence": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    },
+    "level3_domain": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    },
+    "level4": {
+      "cost": 0.0,
+      "time": 0.0,
+      "tokens": 0
+    }
+  }
+}

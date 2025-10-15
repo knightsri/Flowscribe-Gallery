@@ -153,11 +153,11 @@ public getOptions()
 ```mermaid
 classDiagram
     class CLI
-    CLI ..> CodeIgniter\CLI\Exceptions\CLIException
-    CLI ..> CodeIgniter\Exceptions\InvalidArgumentException
-    CLI ..> Throwable
-    CLI ..> CodeIgniter\CLI\InputOutput
-    CLI ..> validation
+CLI ..> CodeIgniter\CLI\Exceptions\CLIException
+CLI ..> CodeIgniter\Exceptions\InvalidArgumentException
+CLI ..> Throwable
+CLI ..> CodeIgniter\CLI\InputOutput
+CLI ..> validation
 ```
 
 **Dependency Details:**

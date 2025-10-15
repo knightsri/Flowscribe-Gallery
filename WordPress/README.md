@@ -82,7 +82,7 @@ flowchart TB
     end
     style Admin fill:#fff3e0,stroke:#b0bec5,stroke-width:1px
     classDef small fill:#fff3e0,stroke:#b0bec5,color:#263238;
-    Core --> Admin
+Core --> Admin
 ```
 
 ### Layers

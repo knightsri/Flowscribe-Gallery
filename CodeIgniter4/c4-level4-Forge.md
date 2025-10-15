@@ -103,11 +103,11 @@ public modifyColumn(string $table, $fields)
 ```mermaid
 classDiagram
     class Forge
-    Forge ..> BaseConnection
-    Forge ..> DatabaseException
-    Forge ..> InvalidArgumentException
-    Forge ..> RuntimeException
-    Forge ..> Throwable
+Forge ..> BaseConnection
+Forge ..> DatabaseException
+Forge ..> InvalidArgumentException
+Forge ..> RuntimeException
+Forge ..> Throwable
 ```
 
 **Dependency Details:**

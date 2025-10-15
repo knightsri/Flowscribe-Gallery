@@ -171,10 +171,10 @@ public send()
 ```mermaid
 classDiagram
     class Email
-    Email ..> Config\Email
-    Email ..> Config\Mimes
-    Email ..> CodeIgniter\Events\Events
-    Email ..> CodeIgniter\I18n\Time
+Email ..> Config\Email
+Email ..> Config\Mimes
+Email ..> CodeIgniter\Events\Events
+Email ..> CodeIgniter\I18n\Time
 ```
 
 **Dependency Details:**

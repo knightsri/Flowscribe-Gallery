@@ -163,9 +163,9 @@ graph TB
             class_wp_xmlrpc_server[class-wp-xmlrpc-server]
             class_wp[class-wp]
             class_wpdb[class-wpdb]
-            class.wp_dependencies[class.wp-dependencies]
-            class.wp_scripts[class.wp-scripts]
-            class.wp_styles[class.wp-styles]
+            class_wp_dependencies_f2f0ee[class.wp-dependencies]
+            class_wp_scripts_7d9ecc[class.wp-scripts]
+            class_wp_styles_082e7e[class.wp-styles]
             comment_template[comment-template]
             comment[comment]
             compat_utf8[compat-utf8]
@@ -189,8 +189,8 @@ graph TB
             fonts[fonts]
             formatting[formatting]
             functions[functions]
-            functions.wp_scripts[functions.wp-scripts]
-            functions.wp_styles[functions.wp-styles]
+            functions_wp_scripts[functions.wp-scripts]
+            functions_wp_styles[functions.wp-styles]
             general_template[general-template]
             global_styles_and_settings[global-styles-and-settings]
             http[http]
@@ -256,13 +256,13 @@ graph TB
             widgets[widgets]
             wp_db[wp-db]
             wp_diff[wp-diff]
-            script_loader_packages.min[script-loader-packages.min]
+            script_loader_packages_min[script-loader-packages.min]
             script_loader_packages[script-loader-packages]
-            script_loader_react_refresh_entry.min[script-loader-react-refresh-entry.min]
+            script_loader_react_refresh_entry_min[script-loader-react-refresh-entry.min]
             script_loader_react_refresh_entry[script-loader-react-refresh-entry]
-            script_loader_react_refresh_runtime.min[script-loader-react-refresh-runtime.min]
+            script_loader_react_refresh_runtime_min[script-loader-react-refresh-runtime.min]
             script_loader_react_refresh_runtime[script-loader-react-refresh-runtime]
-            script_modules_packages.min[script-modules-packages.min]
+            script_modules_packages_min[script-modules-packages.min]
             script_modules_packages[script-modules-packages]
             pattern_overrides[pattern-overrides]
             post_data[post-data]
@@ -359,10 +359,10 @@ graph TB
             template_part[template-part]
             term_description[term-description]
             widget_group[widget-group]
-            view.asset[view.asset]
-            view.min.asset[view.min.asset]
-            view_modal.asset[view-modal.asset]
-            view_modal.min.asset[view-modal.min.asset]
+            view_asset[view.asset]
+            view_min_asset[view.min.asset]
+            view_modal_asset[view-modal.asset]
+            view_modal_min_asset[view-modal.min.asset]
             class_wp_customize_background_image_control[class-wp-customize-background-image-control]
             class_wp_customize_background_image_setting[class-wp-customize-background-image-setting]
             class_wp_customize_background_position_control[class-wp-customize-background-position-control]
@@ -418,22 +418,22 @@ graph TB
             class_wp_html_token[class-wp-html-token]
             class_wp_html_unsupported_exception[class-wp-html-unsupported-exception]
             html5_named_character_references[html5-named-character-references]
-            getid3.lib[getid3.lib]
+            getid3_lib[getid3.lib]
             getid3[getid3]
-            module.audio_video.asf[module.audio-video.asf]
-            module.audio_video.flv[module.audio-video.flv]
-            module.audio_video.matroska[module.audio-video.matroska]
-            module.audio_video.quicktime[module.audio-video.quicktime]
-            module.audio_video.riff[module.audio-video.riff]
-            module.audio.ac3[module.audio.ac3]
-            module.audio.dts[module.audio.dts]
-            module.audio.flac[module.audio.flac]
-            module.audio.mp3[module.audio.mp3]
-            module.audio.ogg[module.audio.ogg]
-            module.tag.apetag[module.tag.apetag]
-            module.tag.id3v1[module.tag.id3v1]
-            module.tag.id3v2[module.tag.id3v2]
-            module.tag.lyrics3[module.tag.lyrics3]
+            module_audio_video_asf[module.audio-video.asf]
+            module_audio_video_flv[module.audio-video.flv]
+            module_audio_video_matroska[module.audio-video.matroska]
+            module_audio_video_quicktime[module.audio-video.quicktime]
+            module_audio_video_riff[module.audio-video.riff]
+            module_audio_ac3[module.audio.ac3]
+            module_audio_dts[module.audio.dts]
+            module_audio_flac[module.audio.flac]
+            module_audio_mp3[module.audio.mp3]
+            module_audio_ogg[module.audio.ogg]
+            module_tag_apetag[module.tag.apetag]
+            module_tag_id3v1[module.tag.id3v1]
+            module_tag_id3v2[module.tag.id3v2]
+            module_tag_lyrics3[module.tag.lyrics3]
             class_wp_interactivity_api_directives_processor[class-wp-interactivity-api-directives-processor]
             class_wp_interactivity_api[class-wp-interactivity-api]
             interactivity_api[interactivity-api]
@@ -733,16 +733,16 @@ graph TB
 
     %% External Layer Dependencies
     Admin[Admin Layer]
-    class_wp_textdomain_registry -.-> Admin
-    class_wp_customize_header_image_setting -.-> Admin
-    class_wp_customize_nav_menus_panel -.-> Admin
-    class_wp_rest_plugins_controller -.-> Admin
-    class_wp_rest_plugins_controller -.-> Admin
-    class_wp_rest_plugins_controller -.-> Admin
-    class_wp_rest_plugins_controller -.-> Admin
-    class_wp_rest_site_health_controller -.-> Admin
-    class_wp_rest_site_health_controller -.-> Admin
-    class_wp_rest_site_health_controller -.-> Admin
+class_wp_textdomain_registry -.-> Admin
+class_wp_customize_header_image_setting -.-> Admin
+class_wp_customize_nav_menus_panel -.-> Admin
+class_wp_rest_plugins_controller -.-> Admin
+class_wp_rest_plugins_controller -.-> Admin
+class_wp_rest_plugins_controller -.-> Admin
+class_wp_rest_plugins_controller -.-> Admin
+class_wp_rest_site_health_controller -.-> Admin
+class_wp_rest_site_health_controller -.-> Admin
+class_wp_rest_site_health_controller -.-> Admin
 ```
 
 ---

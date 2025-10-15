@@ -128,15 +128,15 @@ public wp_loaded()
 ```mermaid
 classDiagram
     class WP_Customize_Manager
-    WP_Customize_Manager ..> WP_Customize_Setting
-    WP_Customize_Manager ..> WP_Customize_Panel
-    WP_Customize_Manager ..> WP_Customize_Section
-    WP_Customize_Manager ..> WP_Customize_Control
-    WP_Customize_Manager ..> WP_Customize_Widgets
-    WP_Customize_Manager ..> WP_Customize_Nav_Menus
-    WP_Customize_Manager ..> WP_Customize_Selective_Refresh
-    WP_Customize_Manager ..> WordPress hooks (e.g., apply_filters, do_action)
-    WP_Customize_Manager ..> WP_Theme
+WP_Customize_Manager ..> WP_Customize_Setting
+WP_Customize_Manager ..> WP_Customize_Panel
+WP_Customize_Manager ..> WP_Customize_Section
+WP_Customize_Manager ..> WP_Customize_Control
+WP_Customize_Manager ..> WP_Customize_Widgets
+WP_Customize_Manager ..> WP_Customize_Nav_Menus
+WP_Customize_Manager ..> WP_Customize_Selective_Refresh
+WP_Customize_Manager ..> WordPress hooks (e.g., apply_filters, do_action)
+WP_Customize_Manager ..> WP_Theme
 ```
 
 **Dependency Details:**
