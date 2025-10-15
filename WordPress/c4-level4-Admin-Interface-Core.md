@@ -39,20 +39,32 @@ To bootstrap and centralize the loading of all essential WordPress administratio
 
 ## Dependencies
 
-<div class="mermaid">
+```mermaid
 classDiagram
-    class Admin Interface Core
-    Admin Interface Core ..> admin-filters.php
-    Admin Interface Core ..> bookmark.php
-    Admin Interface Core ..> comment.php
-    Admin Interface Core ..> file.php
-    Admin Interface Core ..> image.php
-    Admin Interface Core ..> media.php
-    Admin Interface Core ..> import.php
-    Admin Interface Core ..> misc.php
-    Admin Interface Core ..> class-wp-privacy-policy-content.php
-    Admin Interface Core ..> options.php
-</div>
+    class AdminInterfaceCore["Admin Interface Core"]
+
+    class AdminFilters["admin-filters.php"]
+    class BookmarkPHP["bookmark.php"]
+    class CommentPHP["comment.php"]
+    class FilePHP["file.php"]
+    class ImagePHP["image.php"]
+    class MediaPHP["media.php"]
+    class ImportPHP["import.php"]
+    class MiscPHP["misc.php"]
+    class PrivacyPolicyContentPHP["class-wp-privacy-policy-content.php"]
+    class OptionsPHP["options.php"]
+
+    AdminInterfaceCore ..> AdminFilters : includes
+    AdminInterfaceCore ..> BookmarkPHP : includes
+    AdminInterfaceCore ..> CommentPHP : includes
+    AdminInterfaceCore ..> FilePHP : includes
+    AdminInterfaceCore ..> ImagePHP : includes
+    AdminInterfaceCore ..> MediaPHP : includes
+    AdminInterfaceCore ..> ImportPHP : includes
+    AdminInterfaceCore ..> MiscPHP : includes
+    AdminInterfaceCore ..> PrivacyPolicyContentPHP : includes
+    AdminInterfaceCore ..> OptionsPHP : includes
+```
 
 **Dependency Details:**
 
