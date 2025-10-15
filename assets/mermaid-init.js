@@ -1,33 +1,35 @@
-(function() {
-  function convertMermaidCodeBlocks() {
-    var blocks = document.querySelectorAll('pre > code.language-mermaid, pre code.mermaid');
-    if (!blocks.length) return;
-    blocks.forEach(function(code) {
+(function () {
+  function convertFences() {
+    var blocks = document.querySelectorAll('pre > code.language-mermaid, pre code.mermaid, code.language-mermaid');
+    if (!blocks.length) return 0;
+    var count = 0;
+    blocks.forEach(function (code) {
       var pre = code.closest('pre') || code.parentElement;
-      var container = document.createElement('div');
-      container.className = 'mermaid';
-      container.textContent = code.textContent;
-      // Replace the entire <pre> with a mermaid container
-      pre.parentNode.replaceChild(container, pre);
+      var div = document.createElement('div');
+      div.className = 'mermaid';
+      // Use textContent to avoid HTML being interpreted
+      div.textContent = code.textContent.trim();
+      pre.parentNode.replaceChild(div, pre);
+      count++;
     });
+    return count;
   }
 
-  function initMermaid() {
-    if (window.mermaid) {
-      try {
-        // safe baseline config; loose allows links in diagrams if present
-        window.mermaid.initialize({ startOnLoad: false, securityLevel: 'loose' });
-        convertMermaidCodeBlocks();
-        window.mermaid.run();
-      } catch (e) {
-        console.error('Mermaid init failed:', e);
-      }
+  function boot() {
+    if (!window.mermaid) return;
+    try {
+      window.mermaid.initialize({ startOnLoad: false, securityLevel: 'loose' });
+      var replaced = convertFences();
+      // Render any <div class="mermaid"> present already
+      window.mermaid.run();
+    } catch (e) {
+      console.error('Mermaid init failed:', e);
     }
   }
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initMermaid);
+    document.addEventListener('DOMContentLoaded', boot);
   } else {
-    initMermaid();
+    boot();
   }
 })();

@@ -14,7 +14,7 @@ title: WordPress - Admin Layer (C4 Level 3)
 
 ## Component Diagram
 
-```mermaid
+<div class="mermaid">
 flowchart TB
     subgraph "Admin Layer"
         subgraph "Components"
@@ -215,7 +215,7 @@ flowchart TB
     %% Component Dependencies
 
     %% External Layer Dependencies
-```
+</div>
 
 ---
 

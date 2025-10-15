@@ -14,7 +14,7 @@ title: WordPress - Core Layer (C4 Level 3)
 
 ## Component Diagram
 
-```mermaid
+<div class="mermaid">
 flowchart TB
     subgraph "Core Layer"
         subgraph "Components"
@@ -748,7 +748,7 @@ class_wp_rest_plugins_controller -.-> Admin
 class_wp_rest_site_health_controller -.-> Admin
 class_wp_rest_site_health_controller -.-> Admin
 class_wp_rest_site_health_controller -.-> Admin
-```
+</div>
 
 ---
 

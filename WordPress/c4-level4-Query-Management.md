@@ -1,3 +1,8 @@
+---
+layout: default
+title: WordPress - C4 Level 4: Query Management
+---
+
 # WordPress - C4 Level 4: Query Management
 
 **Generated:** 2025-10-15 04:24:06  
@@ -77,7 +82,7 @@ public fill_query_vars( $query_vars )
 
 ## Dependencies
 
-```mermaid
+<div class="mermaid">
 classDiagram
     class Query Management
     Query Management ..> WP_Tax_Query
@@ -85,7 +90,7 @@ classDiagram
     Query Management ..> WP_Date_Query
     Query Management ..> WP_Post
     Query Management ..> WP_Comment
-```
+</div>
 
 **Dependency Details:**
 

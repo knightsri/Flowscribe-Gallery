@@ -1,3 +1,8 @@
+---
+layout: default
+title: WordPress - C4 Level 4: Media Handling
+---
+
 # WordPress - C4 Level 4: Media Handling
 
 **Generated:** 2025-10-15 04:22:37  
@@ -107,14 +112,14 @@ public image_get_intermediate_size()
 
 ## Dependencies
 
-```mermaid
+<div class="mermaid">
 classDiagram
     class Media Handling
     Media Handling ..> wp_get_option
     Media Handling ..> wp_get_attachment_metadata
     Media Handling ..> $_wp_additional_image_sizes
     Media Handling ..> wp_get_image_editor
-```
+</div>
 
 **Dependency Details:**
 

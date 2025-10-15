@@ -1,3 +1,8 @@
+---
+layout: default
+title: WordPress - C4 Level 4: Database Abstraction
+---
+
 # WordPress - C4 Level 4: Database Abstraction
 
 **Generated:** 2025-10-15 04:23:45  
@@ -78,11 +83,11 @@ public get_results($query)
 
 ## Dependencies
 
-```mermaid
+<div class="mermaid">
 classDiagram
     class Database Abstraction
     Database Abstraction ..> wpdb
-```
+</div>
 
 **Dependency Details:**
 

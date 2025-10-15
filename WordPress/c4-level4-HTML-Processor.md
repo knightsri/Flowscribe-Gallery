@@ -1,3 +1,8 @@
+---
+layout: default
+title: WordPress - C4 Level 4: HTML Processor
+---
+
 # WordPress - C4 Level 4: HTML Processor
 
 **Generated:** 2025-10-15 04:23:18  
@@ -93,7 +98,7 @@ public get_attribute_names_with_prefix($prefix)
 
 ## Dependencies
 
-```mermaid
+<div class="mermaid">
 classDiagram
     class HTML Processor
     WP_HTML_Tag_Processor <|-- HTML Processor
@@ -101,7 +106,7 @@ classDiagram
     HTML Processor ..> WP_HTML_Unsupported_Exception
     HTML Processor ..> WP_HTML_Stack_Event
     HTML Processor ..> WP_HTML_Token
-```
+</div>
 
 **Dependency Details:**
 

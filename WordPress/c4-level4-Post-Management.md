@@ -1,3 +1,8 @@
+---
+layout: default
+title: WordPress - C4 Level 4: Post Management
+---
+
 # WordPress - C4 Level 4: Post Management
 
 **Generated:** 2025-10-15 04:22:07  
@@ -43,14 +48,14 @@ public create_initial_post_types()
 
 ## Dependencies
 
-```mermaid
+<div class="mermaid">
 classDiagram
     class Post Management
     Post Management ..> WP_Post_Type
     Post Management ..> register_post_type
     Post Management ..> register_post_status
     Post Management ..> WordPress Core API (e.g., add_post_type_support)
-```
+</div>
 
 **Dependency Details:**
 

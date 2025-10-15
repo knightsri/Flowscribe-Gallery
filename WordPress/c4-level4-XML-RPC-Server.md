@@ -1,3 +1,8 @@
+---
+layout: default
+title: WordPress - C4 Level 4: XML-RPC Server
+---
+
 # WordPress - C4 Level 4: XML-RPC Server
 
 **Generated:** 2025-10-15 04:22:49  
@@ -134,11 +139,11 @@ public _prepare_taxonomy(WP_Taxonomy, array)
 
 ## Dependencies
 
-```mermaid
+<div class="mermaid">
 classDiagram
     class XML-RPC Server
     IXR_Server <|-- XML-RPC Server
-```
+</div>
 
 **Dependency Details:**
 

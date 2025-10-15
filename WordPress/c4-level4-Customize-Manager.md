@@ -1,3 +1,8 @@
+---
+layout: default
+title: WordPress - C4 Level 4: WP_Customize_Manager
+---
+
 # WordPress - C4 Level 4: WP_Customize_Manager
 
 **Generated:** 2025-10-15 04:23:04  
@@ -125,7 +130,7 @@ public wp_loaded()
 
 ## Dependencies
 
-```mermaid
+<div class="mermaid">
 classDiagram
     class WP_Customize_Manager
 WP_Customize_Manager ..> WP_Customize_Setting
@@ -137,7 +142,7 @@ WP_Customize_Manager ..> WP_Customize_Nav_Menus
 WP_Customize_Manager ..> WP_Customize_Selective_Refresh
 WP_Customize_Manager ..> WordPress hooks (e.g., apply_filters, do_action)
 WP_Customize_Manager ..> WP_Theme
-```
+</div>
 
 **Dependency Details:**
 

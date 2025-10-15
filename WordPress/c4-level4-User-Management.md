@@ -1,3 +1,8 @@
+---
+layout: default
+title: WordPress - C4 Level 4: User Management
+---
+
 # WordPress - C4 Level 4: User Management
 
 **Generated:** 2025-10-15 04:24:17  
@@ -108,13 +113,13 @@ public get_site_id()
 
 ## Dependencies
 
-```mermaid
+<div class="mermaid">
 classDiagram
     class User Management
     User Management ..> stdClass
     User Management ..> $wpdb
     User Management ..> wp_roles
-```
+</div>
 
 **Dependency Details:**
 

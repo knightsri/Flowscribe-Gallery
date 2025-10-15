@@ -300,12 +300,12 @@ Indicates missing architectural constraints. The deptrac configuration needs ref
 - `deprecated.php`: Graveyard of old functions (necessary evil)
 
 **Coupling Analysis:**
-```mermaid
+<div class="mermaid">
 flowchart LR
     wpdb["wpdb Global"] --> |used by| 400+[400+ Components]
     post["post.php"] --> |depends on| 50+[50+ Functions]
     admin["Admin Layer"] --> |calls| core[Core Functions]
-```
+</div>
 
 ### Recommendations
 

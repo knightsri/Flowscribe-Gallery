@@ -1,3 +1,8 @@
+---
+layout: default
+title: WordPress - C4 Level 4: Admin Interface Core
+---
+
 # WordPress - C4 Level 4: Admin Interface Core
 
 **Generated:** 2025-10-15 04:24:39  
@@ -34,7 +39,7 @@ To bootstrap and centralize the loading of all essential WordPress administratio
 
 ## Dependencies
 
-```mermaid
+<div class="mermaid">
 classDiagram
     class Admin Interface Core
     Admin Interface Core ..> admin-filters.php
@@ -47,7 +52,7 @@ classDiagram
     Admin Interface Core ..> misc.php
     Admin Interface Core ..> class-wp-privacy-policy-content.php
     Admin Interface Core ..> options.php
-```
+</div>
 
 **Dependency Details:**
 

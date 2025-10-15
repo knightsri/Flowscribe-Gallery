@@ -1,3 +1,8 @@
+---
+layout: default
+title: WordPress - C4 Level 4: Theme API
+---
+
 # WordPress - C4 Level 4: Theme API
 
 **Generated:** 2025-10-15 04:24:28  
@@ -115,14 +120,14 @@ public validate_current_theme()
 
 ## Dependencies
 
-```mermaid
+<div class="mermaid">
 classDiagram
     class Theme API
     Theme API ..> WP_Theme
     Theme API ..> Multisite functions (e.g., get_allowed_on_network, get_allowed_on_site)
     Theme API ..> WordPress globals (e.g., $wp_theme_directories, $wp_customize)
     Theme API ..> WP_Customize_Manager
-```
+</div>
 
 **Dependency Details:**
 

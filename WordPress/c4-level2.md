@@ -13,7 +13,7 @@ title: WordPress - C4 Level 2: Container Architecture
 
 ## Container Diagram
 
-```mermaid
+<div class="mermaid">
 flowchart TB
 
     %% External Actors
@@ -25,7 +25,7 @@ flowchart TB
 
     %% Internal Dependencies (from Deptrac)
     Core -->|10 refs| Admin
-```
+</div>
 
 ---
 

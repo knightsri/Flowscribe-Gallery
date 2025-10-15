@@ -1,3 +1,8 @@
+---
+layout: default
+title: WordPress - C4 Level 4: Core Functions
+---
+
 # WordPress - C4 Level 4: Core Functions
 
 **Generated:** 2025-10-15 04:22:26  
@@ -124,7 +129,7 @@ public do_enclose()
 
 ## Dependencies
 
-```mermaid
+<div class="mermaid">
 classDiagram
     class Core Functions
     Core Functions ..> WP_Locale
@@ -133,7 +138,7 @@ classDiagram
     Core Functions ..> WP_Post
     Core Functions ..> get_option
     Core Functions ..> add_post_meta
-```
+</div>
 
 **Dependency Details:**
 
