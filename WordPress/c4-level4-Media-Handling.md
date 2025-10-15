@@ -112,15 +112,17 @@ public image_get_intermediate_size()
 
 ## Dependencies
 
-<div class="mermaid">
+```mermaid
 classDiagram
-    class Media Handling
-    Media Handling ..> wp_get_option
-    Media Handling ..> wp_get_attachment_metadata
-    Media Handling ..> $_wp_additional_image_sizes
-    Media Handling ..> wp_get_image_editor
-</div>
+    class MediaHandling["Media Handling"]
+    class WordPressCoreAPI["WordPress Core API"]
+    class AdditionalImageSizes["$_wp_additional_image_sizes (global)"]
 
+    MediaHandling ..> WordPressCoreAPI : get_option()
+    MediaHandling ..> WordPressCoreAPI : wp_get_attachment_metadata()
+    MediaHandling ..> WordPressCoreAPI : wp_get_image_editor()
+    MediaHandling ..> AdditionalImageSizes : reads
+```
 **Dependency Details:**
 
 - **wp_get_option** (function) - uses
