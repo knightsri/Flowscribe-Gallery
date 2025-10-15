@@ -120,15 +120,20 @@ public validate_current_theme()
 
 ## Dependencies
 
-<div class="mermaid">
-classDiagram
-    class Theme API
-    Theme API ..> WP_Theme
-    Theme API ..> Multisite functions (e.g., get_allowed_on_network, get_allowed_on_site)
-    Theme API ..> WordPress globals (e.g., $wp_theme_directories, $wp_customize)
-    Theme API ..> WP_Customize_Manager
-</div>
+```mermaidclassDiagram
+    class ThemeAPI["Theme API"]
+    class WP_Theme
+    class WordPressMultisiteAPI["WordPress Multisite API"]
+    class WPThemeDirectories["$wp_theme_directories (global)"]
+    class WPCustomizeGlobal["$wp_customize (global)"]
+    class WP_Customize_Manager
 
+    ThemeAPI ..> WP_Theme : uses
+    ThemeAPI ..> WordPressMultisiteAPI : get_allowed_on_network(), get_allowed_on_site()
+    ThemeAPI ..> WPThemeDirectories : reads
+    ThemeAPI ..> WPCustomizeGlobal : reads
+    ThemeAPI ..> WP_Customize_Manager : integrates
+```
 **Dependency Details:**
 
 - **WP_Theme** (class) - uses
