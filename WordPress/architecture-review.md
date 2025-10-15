@@ -1,3 +1,8 @@
+---
+layout: default
+title: Architectural Review: WordPress
+---
+
 # Architectural Review: WordPress
 
 **Reviewed:** October 15, 2025  
@@ -296,10 +301,10 @@ Indicates missing architectural constraints. The deptrac configuration needs ref
 
 **Coupling Analysis:**
 ```mermaid
-graph LR
-    wpdb[wpdb Global] --> |used by| 400+[400+ Components]
-    post[post.php] --> |depends on| 50+[50+ Functions]
-    admin[Admin Layer] --> |calls| core[Core Functions]
+flowchart LR
+    wpdb["wpdb Global"] --> |used by| 400+[400+ Components]
+    post["post.php"] --> |depends on| 50+[50+ Functions]
+    admin["Admin Layer"] --> |calls| core[Core Functions]
 ```
 
 ### Recommendations

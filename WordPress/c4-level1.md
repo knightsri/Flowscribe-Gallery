@@ -1,3 +1,8 @@
+---
+layout: default
+title: WordPress - C4 Level 1: System Context
+---
+
 # WordPress - C4 Level 1: System Context
 
 **Generated:** 2025-10-15 04:20:40  
@@ -83,8 +88,8 @@ WordPress enables users to create, publish, and manage digital content on the we
 
 ## System Context Diagram
 ```mermaid
-graph TB
-    User[👤 Users<br/>Various user types]
+flowchart TB
+    User["👤 Users<br/>Various user types"]
     System["🏛️ WordPress<br/>WordPress enables users to create, publish, and manage digital content on the web through a user-friendly interface."]
     Ext0["🔗 MySQL/MariaDB Database<br/>Stores all site data including posts, users, settings, and metadata."]
     Ext1["🔗 Web Server (e.g., Apache)<br/>Hosts the WordPress files and handles HTTP requests for site delivery."]

@@ -1,3 +1,8 @@
+---
+layout: default
+title: WordPress - C4 Level 2: Container Architecture
+---
+
 # WordPress - C4 Level 2: Container Architecture
 
 **Generated:** 2025-10-15 04:20:40  
@@ -9,10 +14,10 @@
 ## Container Diagram
 
 ```mermaid
-graph TB
+flowchart TB
 
     %% External Actors
-    User[User]
+    User["User"]
 
     %% WordPress
     subgraph System["WordPress"]
